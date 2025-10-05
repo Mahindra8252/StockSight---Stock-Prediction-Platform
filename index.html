@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="StockSight AI - Advanced stock market prediction platform using LSTM and Monte Carlo simulations for accurate price forecasting" />
+    <meta name="keywords" content="stock prediction, AI trading, LSTM, Monte Carlo, stock analysis, financial forecasting" />
+    <meta name="author" content="StockSight AI Team" />
+    <meta name="theme-color" content="#2563eb" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="StockSight AI - Stock Prediction Platform" />
+    <meta property="og:description" content="AI-powered stock market predictions using advanced machine learning algorithms" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.jpg" />
+    
+    <link rel="stylesheet" href="./dist/output.css">
+    
+    <title>StockSight AI - Stock Prediction Platform</title>
+    
+    <style>
+      /* Preloader styles */
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #1e293b 0%, #1e40af 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      #preloader.fade-out {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      .loader {
+        width: 60px;
+        height: 60px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top-color: #60a5fa;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <script>
+      // Hide preloader once content is loaded
+      window.addEventListener('load', function() {
+        const preloader = document.getElementById('preloader');
+        setTimeout(() => {
+          preloader.classList.add('fade-out');
+          setTimeout(() => {
+            preloader.style.display = 'none';
+          }, 500);
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
