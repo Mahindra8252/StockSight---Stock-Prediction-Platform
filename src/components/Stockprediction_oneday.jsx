@@ -299,7 +299,7 @@ const Stockprediction_oneday = () => {
               </div>
               <div className="bg-gray-700 p-6 rounded-lg">
                 <div className="text-3xl mb-2">📈</div>
-                <h3 className="font-bold mb-2">10-Day Forecast</h3>
+                <h3 className="font-bold mb-2">Next-One-Day Forecast</h3>
                 <p className="text-sm text-gray-300">Future price predictions</p>
               </div>
             </div>
