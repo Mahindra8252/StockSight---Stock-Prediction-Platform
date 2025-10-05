@@ -98,16 +98,24 @@ Replace `[TICKER]` with the stock symbol
 ### Step 2: Upload and Configure
 
 1. **Upload CSV File**
+   <img width="1890" height="951" alt="image" src="https://github.com/user-attachments/assets/31498448-0543-46ee-ac3e-fd940fbd922e" />
+
    - Click "Upload Data" tab
    - Select your CSV file
    - Wait for automatic parsing
 
-2. **Set Prediction Days**
+3. **Set Prediction Days**
+   <img width="1895" height="949" alt="image" src="https://github.com/user-attachments/assets/a2732a6f-5fd6-427c-96eb-8469f8744708" />
+
    - Use the interactive slider (appears after upload)
    - Choose 1-30 days for forecast
    - Analysis updates in real-time
 
-3. **View Results**
+5. **View Results**
+   <img width="1886" height="953" alt="image" src="https://github.com/user-attachments/assets/6c6f274d-6999-40c7-9d18-79e977740b2a" />
+<img width="1884" height="953" alt="image" src="https://github.com/user-attachments/assets/0bab4c59-4d7a-4225-8bb0-3a69e06404be" />
+<img width="1894" height="955" alt="image" src="https://github.com/user-attachments/assets/7fc85067-36c7-4ee0-861f-ea4cd3f0b4f5" />
+
    - **Overview Tab**: Summary with recommendations
    - **Predictions Tab**: Detailed LSTM forecasts with confidence intervals
    - **Monte Carlo Tab**: 100 simulation scenarios
@@ -337,6 +345,7 @@ Need help or have questions?
 ---
 
 <div align="center">
+<img width="1890" height="489" alt="image" src="https://github.com/user-attachments/assets/e5b9592e-e54e-404d-846c-b70fa63899ed" />
 
 **Made with ❤️ by Mahindra Kumar, Khushia Dhaka, and Gourav**
 
