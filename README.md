@@ -8,7 +8,9 @@
 
 *An advanced AI-powered stock market prediction platform leveraging LSTM neural networks and Monte Carlo simulations for intelligent price forecasting.*
 
-[Demo](#demo) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
+**🚀 Live Demo**: [https://stocksight-stock-prediction-platform.onrender.com](https://stocksight-stock-prediction-platform.onrender.com)
+
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
 
 </div>
 
@@ -316,8 +318,7 @@ Need help or have questions?
 
 - 📧 **Email**: mahindrakumar_22161@aitpune.edu.in
 - 💼 **LinkedIn**: [linkedin.com/in/mahindra8252](https://www.linkedin.com/in/mahindra8252)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/mahindra8252/StockSight---Stock-Prediction-Platform
-/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/mahindra8252/StockSight---Stock-Prediction-Platform/issues)
 
 ---
 
@@ -351,6 +352,6 @@ Need help or have questions?
 
 ⭐ Star this repo if you find it helpful!
 
-[Back to Top](#-stocksight-ai---stock-prediction-platform)
+[Back to Top](#-stocksight-ml---stock-prediction-platform)
 
 </div>
