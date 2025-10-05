@@ -1,4 +1,4 @@
-# 📈 StockSight AI - Stock Prediction Platform
+# 📈 StockSight ML - Stock Prediction Platform
 
 <div align="center">
 
